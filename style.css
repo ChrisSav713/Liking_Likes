@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Top Page Elements */
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main h1 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    padding: 10px;
+    align-self: center;
+}
+
+.main h2 {
+    width: 800px;
+    font-size: 30px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    align-self: center;
+}
+
+
+/* Left Column Elements */
+
+.left-column {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-column img {
+    width: 80px;
+}
+
+.left-column h3 {
+    font-size: 25x;
+}
+
+
+/* Right Column Elements */
+
+.right-column {
+    width: 600px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column a {
+    display: inline-block;
+}
+
+.post-box {
+    margin-bottom: 10px;
+    border: 3px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenl
+}
+
+.top-row {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-row h3 {
+    flex-grow: 1;
+}
+
+.top-row p {
+    align-self: right;
+    margin-right: 40px;
+}
+
+.top-row button {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border: 3px soild black;
+    box-shadow: 3px 6px black;
+}
